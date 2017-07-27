@@ -1,1 +1,0 @@
-Voidcraft will be a magic/tech hybrid mod.
