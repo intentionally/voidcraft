@@ -28,7 +28,7 @@ public class ModItems {
 
     private static void registerRender(Item item) {
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0,
-                new ModelResourceLocation(Reference.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+                new ModelResourceLocation(item.getRegistryName(), "inventory"));
 
     }
 }

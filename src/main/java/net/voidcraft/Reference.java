@@ -33,4 +33,24 @@ public class Reference {
             return unlocalizedName;
         }
     }
+
+    public enum VoidcraftBlocks {
+        CHEESE("cheese", "BlockCheese");
+
+        private String unlocalizedName;
+        private String registryName;
+
+        VoidcraftBlocks(String unlocalizedName, String registryName) {
+            this.unlocalizedName = unlocalizedName;
+            this.registryName = registryName;
+        }
+
+        public String getRegistryName() {
+            return registryName;
+        }
+
+        public String getUnlocalizedName() {
+            return unlocalizedName;
+        }
+    }
 }

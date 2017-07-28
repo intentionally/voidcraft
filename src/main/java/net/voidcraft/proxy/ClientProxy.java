@@ -1,5 +1,6 @@
 package net.voidcraft.proxy;
 
+import net.voidcraft.init.ModBlocks;
 import net.voidcraft.init.ModItems;
 
 /**
@@ -8,6 +9,8 @@ import net.voidcraft.init.ModItems;
 public class ClientProxy implements CommonProxy {
     @Override
     public void init() {
+
         ModItems.registerRenders();
+        ModBlocks.registerRenders();
     }
 }
