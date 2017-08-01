@@ -1,0 +1,1 @@
+Voidcraft is a magic/tech mod. It can be used as a standalone mod or alongside other mods in a modpack.
